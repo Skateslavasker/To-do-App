@@ -1,0 +1,82 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(5 150 105);
+}
+
+.container{
+    max-width: 500px;
+    margin: 30px 30px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1{
+    color: white;
+  
+}
+
+.todo-input{
+    display: flex;
+    margin-bottom:20px ;
+}
+
+input[type="text"]{
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+#AddTodoBtn{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(5 150 105);
+    border-radius: 0px 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    color: white;
+}
+
+#clearbtn{
+    margin-top: 16px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+}
+
+#store{
+    margin-top: 16px;
+    padding: 10px 20px;
+    background-color:rgb(51, 202, 9);
+    color: white;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+
+}
+#retreive{
+    margin-top: 16px;
+    padding: 10px 20px;
+    background-color:rgb(223, 223, 7);
+    color: white;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+
+}
